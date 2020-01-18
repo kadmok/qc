@@ -313,10 +313,10 @@ print(datstructuretime)
 gc()
 
 
+#-----------------------------end of preparatory work ---------------------------------------
 
 
-
-
+#extracting concepts one by one
 singlecouples_conceptsqcover3_hashtable_noprint<- function(t1){
   if(nrow(t1)>0 ){
     x<-bestconcept[[t1$couple[1]]][[1]]
