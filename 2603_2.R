@@ -8,7 +8,6 @@ library(foreach)
 library(arrangements)
 library(Rcpp)
 library(tidyverse)
-library(SparkR)
 library(sparklyr)
 
 
